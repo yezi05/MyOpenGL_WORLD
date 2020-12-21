@@ -1,0 +1,14 @@
+﻿  main.cpp
+  Shader.cpp
+  test01.cpp
+  test02.cpp
+  正在生成代码...
+test01.obj : error LNK2005: "void __cdecl framebuffer_size_callback(struct GLFWwindow *,int,int)" (?framebuffer_size_callback@@YAXPAUGLFWwindow@@HH@Z) 已经在 main.obj 中定义
+test01.obj : error LNK2005: "void __cdecl processInput(struct GLFWwindow *)" (?processInput@@YAXPAUGLFWwindow@@@Z) 已经在 main.obj 中定义
+test01.obj : error LNK2005: "char const * const vertexShaderSource" (?vertexShaderSource@@3PBDB) 已经在 main.obj 中定义
+test01.obj : error LNK2005: "char const * const fragmentShaderSource" (?fragmentShaderSource@@3PBDB) 已经在 main.obj 中定义
+test02.obj : error LNK2005: "void __cdecl framebuffer_size_callback(struct GLFWwindow *,int,int)" (?framebuffer_size_callback@@YAXPAUGLFWwindow@@HH@Z) 已经在 main.obj 中定义
+test02.obj : error LNK2005: "void __cdecl processInput(struct GLFWwindow *)" (?processInput@@YAXPAUGLFWwindow@@@Z) 已经在 main.obj 中定义
+test02.obj : error LNK2005: "char const * const vertexShaderSource" (?vertexShaderSource@@3PBDB) 已经在 main.obj 中定义
+LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+D:\Git\OpenGL2021\practice00\Debug\practice00.exe : fatal error LNK1169: 找到一个或多个多重定义的符号
